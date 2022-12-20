@@ -7,7 +7,8 @@ public class BinarySearchTree {
 	BinarySearchTree() {root = null;};
 	
 	void printTreeInPreOrder() {
-		System.out.print("Tree In PreOrder ==> ");
+		System.out.print("Tree displayed In PreOrder ==> ");
+		System.out.print("-------------------------------");
 		printTreeInPreOrder(root);
 		System.out.println();
 	}
@@ -33,6 +34,7 @@ public class BinarySearchTree {
 	
 	void printTreeInPostOrder() {
 		System.out.print("Tree In PostOrder ==> ");
+		System.out.print("-----------------------");
 		printTreeInPostOrder(root);
 		System.out.println();
 	}
