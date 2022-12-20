@@ -50,7 +50,7 @@ public class BasicBinaryTree<T extends Comparable<T>> {
 	
 	public void printTreeInPreOrder() {
 		if(root != null) {
-			System.out.print("Tree in pre order = > ");
+			System.out.print("Tree in pre order ==> ");
 			preOrderTraversal(this.root);
 			System.out.println();
 		}
